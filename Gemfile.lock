@@ -1,0 +1,94 @@
+GIT
+  remote: https://github.com/agelastic/twitter_ebooks.git
+  revision: 35c3b803065793e9d6be9454e1bca553269ddbdf
+  specs:
+    twitter_ebooks (3.1.6.1)
+      engtagger
+      fast-stemmer
+      gingerice
+      highscore
+      htmlentities
+      mini_magick
+      oauth
+      pry
+      rufus-scheduler
+      twitter
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    awesome_print (1.8.0)
+    buftok (0.2.0)
+    coderay (1.1.2)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    engtagger (0.2.1)
+    equalizer (0.0.11)
+    et-orbi (1.1.6)
+      tzinfo
+    fast-stemmer (1.0.2)
+    fugit (1.1.6)
+      et-orbi (~> 1.1, >= 1.1.6)
+      raabro (~> 1.1)
+    gingerice (1.2.2)
+      addressable
+      awesome_print
+    highscore (1.2.1)
+      whatlanguage (>= 1.0.0)
+    htmlentities (4.3.4)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.1)
+    http_parser.rb (0.6.0)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    method_source (0.9.0)
+    mini_magick (4.9.2)
+    multipart-post (2.0.0)
+    naught (1.1.0)
+    oauth (0.5.4)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    public_suffix (3.0.3)
+    raabro (1.1.6)
+    rufus-scheduler (3.5.2)
+      fugit (~> 1.1, >= 1.1.5)
+    simple_oauth (0.3.1)
+    thread_safe (0.3.6)
+    twitter (6.2.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.11)
+      http (~> 3.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+      memoizable (~> 0.4.0)
+      multipart-post (~> 2.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    whatlanguage (1.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  twitter_ebooks!
+
+RUBY VERSION
+   ruby 2.2.1p85
+
+BUNDLED WITH
+   1.16.5
